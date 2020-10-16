@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head></head>
+<body style="background-image:linear-gradient(to right,black,gray 70%);">
+<p></p><br/><br/><br/><p></p><h1 style="text-align:center;color:yellow;"> spam predictor</h1><p><br/><br/><br/></p><p></p>
+<form style="margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 30px;
+background-color:white;"action="{{url_for('predict')}}" method="POST">
+
+<h1 style="color:blue;text-align:center;">Enter Message:</h1>
+
+<input type="text" width=100% name="input" style="width:100%;background-color:brown;color:white;" />
+<h1></h1>
+<button style="color:white;padding:4px;background-color:pink;margin:auto;"><input type='submit' value="check"/ ></button>{{ans}}
+</form>
+
+
+
+
+
+
+
+
+</body></html>
